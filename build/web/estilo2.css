@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 17, 2024, 6:25:25 PM
+    Author     : laver
+*/
+
+html{
+    background-color:lightgreen;
+}
+
+
+body{
+    font-family: 'Comic Sans Ms';
+}
+
+h1{
+    position: absolute;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.rectangulo {
+    position: absolute; 
+    width: 500px;
+    height: 100px;
+    background-color: lightsalmon;
+    z-index: 1;
+}
+
+p{
+    font-size: 20px;
+}
+
+.container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            text-align: center;
+}

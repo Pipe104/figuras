@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Figuras</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo1.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        
+        <div class="container">
+            <div class="rectangulo"></div>
+            <h1>Figuras</h1>
+        </div>
+
+        <form action="servletFigura">
+            
+            <h2>Posibles tipos:</h2>
+            <li>
+                Cuadrilatero
+            </li>
+            <li>
+                Triangulo
+            </li>
+
+            <h2>Nombres de triagulos</h2>
+            <li>
+                Isosceles
+            </li>
+            <li>
+                Equilatero
+            </li>
+            <li>
+                Escaleno
+            </li>
+
+            <h2>Nombres de cuadrilateros</h2>
+            <li>
+                Cuadrado
+            </li>
+            <li>
+                Rectangulo
+            </li>
+            <li>
+                Rombo
+            </li>
+
+            <br>
+            <input type="text" id="tipo" name="tipo" placeholder="Ingrese un tipo de figura" required>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre de la figura" required>
+            <input type="submit"> 
+        </form>
+        <img class="imagen1" src="imagenes/imagen.png" alt="triangulo y cuadrado"/>
+    </body>
+</html>
